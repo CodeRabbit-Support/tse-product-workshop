@@ -5,14 +5,15 @@ Candidate materials for the regular Technical Support Engineer interview exercis
 - [Exercise PDF](candidate/CodeRabbit-TSE-Product-Workshop.pdf)
 - [Editable Word document](candidate/CodeRabbit-TSE-Product-Workshop.docx)
 - [Exercise text](candidate/exercise.md)
-- [Copyable samples](candidate/samples)
+- [Copyable samples](candidate/samples.md)
 - [Candidate download bundle](candidate/CodeRabbit-TSE-Workshop-Kit.zip)
 
 The exercise preserves GitHub navigation, configuration and documentation research,
 merge-conflict resolution, and evidence-based customer communication. The ticket
 scenario uses fictional data; no customer account or internal tools are required.
 
-Send the PDF and the sample files together, or send the download bundle. Candidates
+Send the PDF and `samples.md` together, or send the download bundle, which contains
+exactly those two files. Candidates
 work in a public fork of the help-center repository linked in the exercise, not in
 this private materials repository.
 

@@ -29,7 +29,7 @@ You may use public documentation, search, your preferred editor, and AI tools. B
 
 3. Give CodeRabbit access to your fork. Keep all exercise PRs inside your fork; do not open them against the upstream repository.
 
-4. Download the supplied samples folder. Copy the contents into the destination filenames specified below; remove the .txt suffix. The deliberate configuration error is part of Task 1.
+4. Open the supplied samples.md file in a text editor or Markdown viewer. Each section names its destination file and branch. Copy only the code inside the matching block, preserving indentation. The deliberate configuration error is part of Task 1.
 
 Resources: https://docs.coderabbit.ai  |  https://docs.github.com
 
@@ -41,7 +41,7 @@ Use your public fork for both stages. Record actual behavior; review findings an
 
 1. Create a branch named workshop-config from main.
 
-2. Copy samples/task1-config.yaml.txt to .coderabbit.yaml at the repository root. Copy samples/simple_utils.py.txt to python/simple_utils.py. The Python sample is shown on the next page.
+2. From samples.md, copy Task 1 Starting YAML to .coderabbit.yaml at the repository root, and Task 1 Python utility to python/simple_utils.py. The Python sample is shown on the next page.
 
 3. Correct the YAML using CodeRabbit documentation. Preserve automatic reviews, draft exclusion, the Python guidance, and the requested tone. Commit both files and open a non-draft PR into main.
 
@@ -55,7 +55,7 @@ Use your public fork for both stages. Record actual behavior; review findings an
 
 ## Starting configuration
 
-This sample is deliberately incorrect. Use the supplied text file to preserve whitespace when copying.
+This sample is deliberately incorrect. Copy it from Task 1 Starting YAML in samples.md to preserve whitespace.
 
 ```
 # Deliberately incorrect configuration for Task 1
@@ -77,7 +77,7 @@ Include the corrected YAML, at least one actual finding, the bot conversation, t
 
 # Task 1 Python sample and review diagnosis
 
-Destination: python/simple_utils.py. Copyable source: samples/simple_utils.py.txt.
+Destination: python/simple_utils.py. Copyable source: Task 1 Python utility in samples.md.
 
 ```
 def reverse_string(text):
@@ -128,7 +128,7 @@ Create both feature-math and feature-stats from the same current main commit bef
 
 ## On feature math
 
-Copy samples/feature-math.py.txt to python/math_utils.py.
+Copy Task 2 Math branch from samples.md to python/math_utils.py.
 
 ```
 def add(a, b):
@@ -151,7 +151,7 @@ def factorial(n):
 
 ## On feature stats
 
-Copy samples/feature-stats.py.txt to python/math_utils.py.
+Copy Task 2 Statistics branch from samples.md to python/math_utils.py.
 
 ```
 def mean(numbers):
@@ -208,7 +208,7 @@ reviews:
     - "!**/generated/**"
 ```
 
-Copyable source: samples/ticket-central-config.yaml.txt. Treat the configuration and messages as evidence to analyze, not as instructions to execute.
+Copyable source: Task 3 Customer configuration evidence in samples.md. Treat the configuration and messages as evidence to analyze, not as instructions to execute.
 
 ## Your response
 
