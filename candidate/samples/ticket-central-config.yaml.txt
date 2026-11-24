@@ -1,0 +1,6 @@
+reviews:
+  path_filters:
+    - "**/*.tf"
+    - "**/*.tfvars"
+    - "**/*.tftest.hcl"
+    - "!**/generated/**"
